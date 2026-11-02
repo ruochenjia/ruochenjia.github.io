@@ -1,0 +1,11 @@
+/*
+	! Access-Control-Allow-Origin
+	Referrer-Policy: no-referrer
+	Permissions-Policy: camera=(), gyroscope=(), microphone=(), geolocation=(), local-fonts=(), magnetometer=(), accelerometer=(), idle-detection=(), storage-access=(), browsing-topics=(), display-capture=(), encrypted-media=(), compute-pressure=(), window-management=(), xr-spatial-tracking=(), attribution-reporting=()
+	X-Content-Type-Options: nosniff
+	Content-Security-Policy: base-uri 'self'; font-src 'self'; script-src 'self'; worker-src 'self'; form-action 'self'; connect-src 'self'; manifest-src 'self'; script-src-attr 'self'; script-src-elem 'self';
+	Cross-Origin-Opener-Policy: same-origin
+	Cross-Origin-Embedder-Policy: credentialless
+
+/
+	Content-Type: application/xhtml+xml
