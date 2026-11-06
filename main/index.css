@@ -194,7 +194,7 @@ footer>div {
 	border-bottom: 2px solid #f0f0f0;
 }
 
-#egg>div {
+#egg>span {
 	position: relative;
 	display: block;
 	width: fit-content;
@@ -203,7 +203,7 @@ footer>div {
 	padding: 5px 10px;
 }
 
-#egg:focus>div {
+#egg:focus>span {
 	border: 1px dotted #303030;
 }
 
@@ -213,7 +213,7 @@ footer>div {
 	width: 100%;
 	height: 200px;
 	image-rendering: pixelated;
-	background-image: url("https://count.getloli.com/@unbioctium.com?theme=rule34&padding=8&offset=3&align=center&scale=1.0&pixelated=1&darkmode=auto");
+	background-image: url("https://count.getloli.com/@unbioctium.com?theme=rule34&padding=8&offset=3&align=center&scale=1.0&pixelated=1&darkmode=0");
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -233,6 +233,7 @@ footer>div {
 	height: 100%;
 	top: 0px;
 	left: 0px;
+	cursor: none;
 	background-image: url("res/bsod.png");
 	background-color: #0078d7;
 	background-size: contain;

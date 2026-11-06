@@ -3,7 +3,9 @@
 	var _egg = document.getElementById("egg-body");
 	var _mbtn = document.getElementById("egg");
 
-	_mbtn.onclick = function() {
+	_mbtn.onclick = function(e) {
+		e.preventDefault();
+		e.stopPropagation();
 		_mbtn.disabled = true;
 		_egg.style.display = "block";
 
@@ -12,6 +14,10 @@
 				_mbtn.disabled = false;
 			});
 		} else _re.remove();
+	};
+	_egg.oncontextmenu = function(e) {
+		e.preventDefault();
+		e.stopPropagation();
 	};
 	document.onfullscreenchange = function() {
 		if (document.fullscreenElement == null)
